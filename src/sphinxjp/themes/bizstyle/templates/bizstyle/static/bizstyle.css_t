@@ -22,6 +22,7 @@ body {
     line-height: 150%;
     text-align: center;
     background-color: white;
+    background-image: url(background_r12.png);
     color: black;
     padding: 0;
     border-right: 1px solid #BF0000;
@@ -36,6 +37,9 @@ div.document {
     text-align: left;
     background-image: url(contents.png);
     background-repeat: repeat-x;
+
+    -moz-box-shadow: 2px 2px 3px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
 }
 
 div.bodywrapper {
@@ -57,6 +61,9 @@ div.bodywrapper {
 
 div.related {
     font-size: 1em;
+
+    -moz-box-shadow: 2px 2px 3px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
 }
 
 div.related ul {
@@ -141,6 +148,9 @@ div.footer {
     clear: both;
     font-size: 0.8em;
     text-align: right;
+
+    -moz-box-shadow: 2px 2px 3px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
 }
 
 div.footer a {
@@ -305,7 +315,6 @@ table td, table th {
 div.admonition, div.warning {
     font-size: 0.9em;
     margin: 1em 0 1em 0;
-#    border: 1px solid #00646E;
     border: 3px solid #82A08E;
     background-color: #f7f7f7;
     padding: 0;
@@ -325,23 +334,18 @@ div.warning p.admonition-title {
     margin: 0;
     padding: 0.1em 0 0.1em 0.5em;
     color: white;
-#    border-bottom: 1px solid #00646E;
     border-bottom: 3px solid #82A0BE;
     font-weight: bold;
-#    background-color: #82A0BE;
     background-color: #00646E;
 }
 
 div.warning {
     background-color: #F0D296;
-#    border: 1px solid #BF0000;
     border: 3px solid #F06E5A;
 }
 
 div.warning p.admonition-title {
-#    background-color: #D27864;
     background-color: #BF0000;
-#    border-bottom-color: #BF0000;
     border-bottom: 3px solid #F06E5A;
 }
 
