@@ -16,7 +16,7 @@ classifiers = [
     "Programming Language :: Python",
     "Topic :: Software Development",
     "Topic :: Software Development :: Documentation",
-    "Topic :: Software Development :: Markup",
+    "Topic :: Text Processing :: Markup",
 ]
 
 setup(
