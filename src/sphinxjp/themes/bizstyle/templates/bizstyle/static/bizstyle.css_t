@@ -1,11 +1,10 @@
 /*
- * rstyle.css_t
- * ~~~~~~~~~~~~
+ * bizstyle.css_t
+ * ~~~~~~~~~~~~~~
  *
- * Sphinx stylesheet -- rstyle theme. 
- * Originally created by Shoji KUMAGAI.
+ * Sphinx stylesheet -- business style theme. 
  *
- * :copyright: Copyright 2011 by the Rakuten Inc., see AUTHORS.
+ * :copyright: Copyright 2011 by Sphinx-users.jp, see AUTHORS.
  * :license: MIT, see LICENSE for details.
  *
  */
@@ -22,11 +21,11 @@ body {
     line-height: 150%;
     text-align: center;
     background-color: white;
-    background-image: url(background_r12.png);
+    background-image: url(background_b01.png);
     color: black;
     padding: 0;
-    border-right: 1px solid #BF0000;
-    border-left: 1px solid #BF0000;
+    border-right: 1px solid {{ theme_maincolor }};
+    border-left: 1px solid {{ theme_maincolor }};
 
     margin: 0px 40px 0px 40px;
     min-width: 740px;
@@ -35,11 +34,10 @@ body {
 div.document {
     background-color: white;
     text-align: left;
-    background-image: url(contents.png);
     background-repeat: repeat-x;
 
-    -moz-box-shadow: 2px 2px 3px #000;
-    -webkit-box-shadow: 2px 2px 3px #000;
+    -moz-box-shadow: 2px 2px 5px #000;
+    -webkit-box-shadow: 2px 2px 5px #000;
 }
 
 div.bodywrapper {
@@ -62,12 +60,12 @@ div.bodywrapper {
 div.related {
     font-size: 1em;
 
-    -moz-box-shadow: 2px 2px 3px #000;
-    -webkit-box-shadow: 2px 2px 3px #000;
+    -moz-box-shadow: 2px 2px 5px #000;
+    -webkit-box-shadow: 2px 2px 5px #000;
 }
 
 div.related ul {
-    background-color: #BF0000;
+    background-color: {{ theme_maincolor }};
     height: 2em;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -118,8 +116,8 @@ div.sphinxsidebar h3, div.sphinxsidebar h4 {
     font-size: 1em;
     padding: 0.1em 0 0.1em 0.5em;
     color: white;
-    border: 1px solid #BF0000;
-    background-color: #BF0000;
+    border: 1px solid {{ theme_maincolor }};
+    background-color: {{ theme_maincolor }};
 }
 
 div.sphinxsidebar h3 a {
@@ -138,23 +136,23 @@ div.sphinxsidebar ul ul {
 }
 
 div.sphinxsidebar input {
-    border: 1px solid #BF0000;
+    border: 1px solid {{ theme_maincolor }};
 }
 
 div.footer {
     background-color: white;
-    color: #BF0000;
+    color: {{ theme_maincolor }};
     padding: 3px 8px 3px 0;
     clear: both;
     font-size: 0.8em;
     text-align: right;
 
-    -moz-box-shadow: 2px 2px 3px #000;
-    -webkit-box-shadow: 2px 2px 3px #000;
+    -moz-box-shadow: 2px 2px 5px #000;
+    -webkit-box-shadow: 2px 2px 5px #000;
 }
 
 div.footer a {
-    color: #BF0000;
+    color: {{ theme_maincolor }};
     text-decoration: underline;
 }
 
@@ -165,12 +163,12 @@ p {
 }
 
 a {
-    color: #BF0000;
+    color: {{ theme_maincolor }};
     text-decoration: none;
 }
 
 a:hover {
-    color: #BF0000;
+    color: {{ theme_maincolor }};
     text-decoration: underline;
 }
 
@@ -179,7 +177,7 @@ div.body a {
 }
 
 h1, h2, h3 {
-    color: #bf0000;
+    color: {{ theme_maincolor }};
 }
 
 h1 {
@@ -192,14 +190,14 @@ h2 {
     margin: 1.3em 0 0.2em 0;
     font-size: 1.35em;
     padding-bottom: .5em;
-    border-bottom: 1px solid #BF0000;
+    border-bottom: 1px solid {{ theme_maincolor }};
 }
 
 h3 {
     margin: 1em 0 -0.3em 0;
     font-size: 1.2em;
     padding-bottom: .3em;
-    border-bottom: 1px solid #F06E5A;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 div.body h1 a, div.body h2 a, div.body h3 a,
@@ -247,7 +245,7 @@ cite, code, tt {
 }
 
 tt {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     border-bottom: 1px solid #ddd;
     color: #333;
 }
@@ -345,7 +343,7 @@ div.warning {
 }
 
 div.warning p.admonition-title {
-    background-color: #BF0000;
+    background-color: {{ theme_maincolor }};
     border-bottom: 3px solid #F06E5A;
 }
 
