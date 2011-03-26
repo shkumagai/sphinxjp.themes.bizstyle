@@ -9,7 +9,7 @@ install:
 
 .. code-block:: bash
 
-    $ easy_install sphinxjp.themes.rstyle
+    $ easy_install sphinxjp.themes.bizstyle
 
 
 setup your ``conf.py`` with:
@@ -31,9 +31,9 @@ then your will get this page's style HTML output.
 Links
 =====
 
-:download: https://bitbucket.org/shkumagai/sphinxjp.themes.rstyle
-:repository: https://bitbucket.org/shkumagai/sphinxjp.themes.rstyle
-:bug tracker: https://bitbucket.org/shkumagai/sphinxjp.themes.rstyle/issues
+:download: https://bitbucket.org/shkumagai/sphinxjp.themes.bizstyle
+:repository: https://bitbucket.org/shkumagai/sphinxjp.themes.bizstyle
+:bug tracker: https://bitbucket.org/shkumagai/sphinxjp.themes.bizstyle/issues
 
 
 Contents
