@@ -6,7 +6,6 @@ version = '0.1.0'
 long_description = '\n'.join([
         open(os.path.join("src", "README.txt")).read(),
         open(os.path.join("src", "AUTHORS.txt")).read(),
-        open(os.path.join("src", "LICENSE.txt")).read(),
         open(os.path.join("src", "HISTORY.txt")).read(),
         ])
 
