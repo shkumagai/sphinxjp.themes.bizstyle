@@ -6,6 +6,6 @@ History
 * with the modification of the 'sphinxjp.themecore' package, modify the relevant sections.
   thank you shimizukawa, togakushi!!
 
-0.1.0 (Mar 24, 2011)
+0.1.0 (Mar 27, 2011)
 ---------------------
 * first release
