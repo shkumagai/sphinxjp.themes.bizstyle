@@ -1,6 +1,11 @@
 History
 =======
 
-0.1.0 (Mar xx, 2011)
+0.1.1 (Jul  6, 2011)
+---------------------
+* with the modification of the 'sphinxjp.themecore' package, modify the relevant sections.
+  thank you shimizukawa, togakushi!!
+
+0.1.0 (Mar 24, 2011)
 ---------------------
 * first release
