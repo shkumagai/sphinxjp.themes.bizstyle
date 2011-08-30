@@ -41,6 +41,7 @@ Contents
 
 .. toctree::
 
+    sample
     readme
     options
     history
