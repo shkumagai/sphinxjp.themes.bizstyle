@@ -19,7 +19,7 @@ Sample
     # Extension and Theme setting
     # You need to install `easy_install sphinxjp.themes.bizstyle`
     
-    extensions = ['sphinxjp.themescore']
+    extensions = ['sphinxjp.themecore']
     html_theme = 'bizstyle'
     
     ################################################################
