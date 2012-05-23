@@ -1,7 +1,6 @@
 {#
     bizstyle/layout.html
-
-    ~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~
 
     Sphinx layout template for the bizstyle theme.
 
@@ -10,6 +9,20 @@
 #}
 {% extends "basic/layout.html" %}
 
+{% set script_files = script_files + ["_static/bizstyle.js"] %}
+
 {# put the sidebar before the body #}
 {% block sidebar1 %}{{ sidebar() }}{% endblock %}
 {% block sidebar2 %}{% endblock %}
+
+{# doctype override #}
+{%- block doctype %}
+<!doctype html>
+{%- endblock %}
+
+{%- block extrahead %}
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <!-- [if lt IE9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif] -->
+{%- endblock %}
