@@ -12,7 +12,7 @@ Literal Block
 
    Usage = """
    Usage:
-   $ python factorial.py 
+   $ python factorial.py
    """
 
    def fact(x):
