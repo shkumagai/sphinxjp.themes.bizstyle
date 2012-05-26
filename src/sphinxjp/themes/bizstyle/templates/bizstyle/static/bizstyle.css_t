@@ -322,6 +322,10 @@ div.admonition p {
     padding: 0;
 }
 
+div.admonition li p {
+    margin-left: 0;
+}
+
 div.admonition pre, div.warning pre {
     margin: 0.4em 1em 0.4em 1em;
 }
