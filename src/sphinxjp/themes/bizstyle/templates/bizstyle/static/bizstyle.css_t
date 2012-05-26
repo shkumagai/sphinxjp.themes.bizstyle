@@ -71,7 +71,7 @@ div.related ul {
 }
 
 div.related ul li {
-    text: white;
+    color: white;
     margin: 0;
     padding: 0;
     height: 2em;
