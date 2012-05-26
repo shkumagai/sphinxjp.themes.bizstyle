@@ -1,9 +1,15 @@
 History
 =======
 
-0.1.4 (May 27, 2012)
+0.1.5 (May 27, 2012)
+---------------------
+* merge pull request.
+  thanks you hokorobi!
+
+0.1.4 (May 24, 2012)
 ---------------------
 * add support for mobile devices.
+* fix typo, thank you nanimosa!
 
 0.1.3 (Aug 30, 2011)
 ---------------------
