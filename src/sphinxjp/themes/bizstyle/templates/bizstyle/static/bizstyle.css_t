@@ -145,6 +145,7 @@ div.footer {
     clear: both;
     font-size: 0.8em;
     text-align: right;
+    border-bottom: 1px solid {{ theme_maincolor }};
 
     -moz-box-shadow: 2px 2px 5px #000;
     -webkit-box-shadow: 2px 2px 5px #000;
