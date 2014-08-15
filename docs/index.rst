@@ -16,7 +16,6 @@ setup your ``conf.py`` with:
 
 .. code-block:: bash
 
-    extensions = ['sphinxjp.themecore']
     html_theme = 'bizstyle'
 
 and run:

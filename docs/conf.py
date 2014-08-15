@@ -12,10 +12,8 @@ version = '0.1.5'
 
 # -- Options for HTML output -----------------------------------
 
-extensions = ['sphinxjp.themecore']
 html_theme = 'bizstyle'
 
 html_theme_options = {
     'rightsidebar': False,
 }
-
