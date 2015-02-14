@@ -20,7 +20,6 @@ $(document).ready(function(){
             var tmpstr = item.text
             $(item).attr("title", tmpstr);
             $(item).text(tmpstr.substr(0, 5) + "...");
-            alert(i + ":" + item.text + ":" + $(item).attr("title") + ":" + $(item).size());
         }
     });
     $("div.related:last ul li:not(.right) a").slice(1).each(function(i, item){
@@ -28,7 +27,6 @@ $(document).ready(function(){
             var tmpstr = item.text
             $(item).attr("title", tmpstr);
             $(item).text(tmpstr.substr(0, 5) + "...");
-            alert(i + ":" + item.text + ":" + $(item).attr("title") + ":" + $(item).size());
         }
     });
 });
